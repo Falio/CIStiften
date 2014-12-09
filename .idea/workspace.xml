@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/CardTest.java" afterPath="$PROJECT_DIR$/Arrays/src/CardTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/DeckTest.java" afterPath="$PROJECT_DIR$/Arrays/src/DeckTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,11 +70,9 @@
       <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Arrays/src/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7199341" vertical-offset="2589" max-vertical-offset="3196">
-              <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.08401977" vertical-offset="0" max-vertical-offset="3213">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -275,6 +271,7 @@
     <property name="LayoutCode.rearrangeEntriesPlain text" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -769,11 +766,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7199341" vertical-offset="2589" max-vertical-offset="3196">
-          <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.08401977" vertical-offset="0" max-vertical-offset="3213">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
