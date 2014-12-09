@@ -1,124 +1,157 @@
-/**
- * Een deck met Cards
- * 
- */
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
+
+import java.util.Arrays;
+import java.util.Random;
+
 public class Deck {
+	static Card[] cardArray;
 
-	Card[] cardArray;
-
-	/**
-	 * Constructor. Maakt een deck met lengte 0.
-	 */
 	Deck() {
-		cardArray = new Card[0];
+		cardArray = new Card[52];
 	}
 
-	/**
-	 * Vult de array met 52 kaarten: 2,3 ... ,10,V,B,K,A van klaveren, schoppen,
-	 * harten en ruiten.
-	 */
+	public static void main(String[] args) {
+		Card card1 = new Card(Number.ZEVEN, Suit.RUITEN);
+		Deck d = new Deck();
+		d.fill();
+		d.insertAt(card1, 51);
+		System.out.println(cardArray[51]);
+	}
+
 	public void fill() {
+		int a = 0;
+
+		for(int i = 0; i < Suit.values().length; ++i) {
+			for(int count = 0; count < Number.values().length; ++count) {
+				Card c = new Card(Number.values()[count], Suit.values()[i]);
+				cardArray[a] = c;
+				++a;
+			}
+		}
+
 	}
 
-	/**
-	 * Zoals gezegd is dit spel een beetje vreemd. Bijvoorbeeld: spelers kunnen
-	 * kaarten toevoegen aan het deck. Hierdoor kan het aantal kaarten groter
-	 * worden dan 52.
-	 * 
-	 * @param card
-	 *            een Kaart
-	 * @param index
-	 *            Op positie
-	 */
 	public void insertAt(Card card, int index) {
+		cardArray = (Card[])Arrays.copyOf(cardArray, cardArray.length + 1);
+
+		for(int i = cardArray.length - 1; i < index; --i) {
+			cardArray[i] = cardArray[i - 1];
+		}
+
+		cardArray[index] = card;
 	}
 
-	/**
-	 * Kaarten kunnen ook verwijderd worden uit het deck. delete Haalt de kaart
-	 * met een bepaalde index er uit.
-	 * 
-	 * Merk op: na delete is de array zo groot als het aantal elementen dat er
-	 * in zit.
-	 * 
-	 * @param index
-	 */
-	public void delete(int index) {
+	public void delete(int var1) {
+		throw new Error("Unresolved compilation problem: \n\tcard cannot be resolved to a variable\n");
 	}
 
-	/**
-	 * Schud alle kaarten zodat de volgorde 'willekeurig' is. Hiervoor is het
-	 * toegestaan de Java Random generator te gebruiken.
-	 * 
-	 */
-	public void shuffle() {
+	public Card[] shuffle() {
+		Random rgen = new Random();
+
+		for(int i = 0; i < cardArray.length; ++i) {
+			int randomPosition = rgen.nextInt(cardArray.length);
+			Card temp = cardArray[i];
+			cardArray[i] = cardArray[randomPosition];
+			cardArray[randomPosition] = temp;
+		}
+
+		return cardArray;
+	}
+
+	public void showDeck() {
+		int a = 0;
+
+		for(int count = 0; count < cardArray.length; ++count) {
+			System.out.println(cardArray[a]);
+			++a;
+		}
 
 	}
 
-	/**
-	 * Utillity method for swapping cards in given indices
-	 * 
-	 * @param indexA
-	 * @param indexB
-	 */
 	private void cardSwap(int indexA, int indexB) {
+		Card temp = cardArray[indexA];
+		cardArray[indexA] = cardArray[indexB];
+		cardArray[indexB] = temp;
 	}
 
-	/**
-	 * Een gegeven kaart moet worden opgezocht in de array, en de index ervan
-	 * moet als return worden teruggegeven. Zie [Hubbard p.30]
-	 * 
-	 * @param card
-	 *            de kaart die gezocht wordt
-	 * @return De index van de gevonden kaart
-	 */
 	public int sequentialSearch(Card card) {
-		int result = -1;
-		return result;
+		for(int result = 0; result < cardArray.length; ++result) {
+			if(cardArray[result].compareTo(card) == 0) {
+				return result;
+			}
+		}
+
+		byte var3 = -1;
+		return var3;
 	}
 
-	/**
-	 * Legt de kaarten op volgorde. We nemen aan dat een deck op volgorde ligt,
-	 * als de volgorde hetzelfde is als na {@link #fillDeck()}
-	 */
 	public void sort() {
+		for(int j = 1; j < cardArray.length; ++j) {
+			Card key = cardArray[j];
+
+			int i;
+			for(i = j - 1; i >= 0 && this.getIndex(cardArray[i]) < this.getIndex(key); --i) {
+				cardArray[i + 1] = cardArray[i];
+			}
+
+			cardArray[i + 1] = key;
+		}
+
 	}
 
-	/**
-	 * Vertelt of het deck gesorteerd is.
-	 * @return
-	 */
-	public boolean isSorted(){
+	public int getIndex(Card card) {
+		for(int result = 0; result < cardArray.length; ++result) {
+			if(cardArray[result].compareTo(card) == 0) {
+				return result;
+			}
+		}
+
+		byte var3 = -1;
+		return var3;
+	}
+
+	public boolean isSorted() {
 		boolean sorted = true;
-		//...
+
+		for(int i = 1; i < cardArray.length; ++i) {
+			if(this.getIndex(cardArray[i]) < this.getIndex(cardArray[i - 1])) {
+				sorted = false;
+			}
+		}
+
 		return sorted;
 	}
 
-	/**
-	 * Een bepaalde kaart moet worden opgezocht in de gesorteerde array op de
-	 * binary search manier zoals besproken in [Hubbard p.31].
-	 * 
-	 * @param card
-	 *            de kaart die gezocht wordt
-	 * @return De index van de gevonden kaart
-	 */
 	public int binarySearch(Card card) {
-		int result = -1;
-		return result;
+		int lo = 0;
+		int hi = cardArray.length;
+
+		while(lo < hi) {
+			int result = (lo + hi) / 2;
+			if(cardArray[result].compareTo(card) == 0) {
+				return result;
+			}
+
+			if(this.getIndex(cardArray[result]) < this.getIndex(card)) {
+				lo = result + 1;
+			} else {
+				hi = result;
+			}
+		}
+
+		byte result1 = -1;
+		return result1;
 	}
 
-
-	/**
-	 * Pretty-print het deck.
-	 */
-	@Override
 	public String toString() {
 		String str = "";
-
 		return str + "\n";
 	}
-	
-	public int compareTo(Deck d){
+
+	public int compareTo(Deck d) {
 		return 0;
 	}
-
 }
