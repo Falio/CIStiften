@@ -3,7 +3,7 @@ import org.junit.*;
 import java.io.File;
 import java.util.Scanner;
 
-//import static org.junit.Assert.*;
+import static org.junit.Assert.*;
 
 
 public class DeckTest {
@@ -38,7 +38,7 @@ public class DeckTest {
             System.err.println("error: " + e);
         }
 
-        //assertEquals("result", result, this.deck.toString());
+        assertEquals("result", result, this.deck.toString());
     }
 
     @Test
@@ -57,7 +57,7 @@ public class DeckTest {
         Card[] temp = {card1, card2, card3};
         result.cardArray = temp;
 
-        //assertEquals("InsertAt error:", result, deck);
+        assertEquals("InsertAt error:", result, deck);
     }
 
     @Test
@@ -75,7 +75,7 @@ public class DeckTest {
         Card[] temp2 = {card2, card3};
         deck2.cardArray = temp2;
 
-        //assertEquals("result\n", deck, deck2);
+        assertEquals("result\n", deck, deck2);
     }
 
 
@@ -91,7 +91,7 @@ public class DeckTest {
         deck.insertAt(card3, 2);
 
 
-        //assertEquals("result", deck.sequentialSearch(card1), 0);
+        assertEquals("result", deck.sequentialSearch(card1), 0);
     }
 
     @Test
@@ -106,7 +106,7 @@ public class DeckTest {
 
 
         deck.sort();
-        //assertEquals("result", deck, deck2);
+        assertEquals("result", deck, deck2);
     }
 
     @Test
@@ -120,7 +120,7 @@ public class DeckTest {
         //80658175170943878571660636856403766975289505440883277824000000000000
         //keer niet geldig
         d.shuffle();
-        //assertFalse("Ongesorteerd", d.isSorted());
+        assertFalse("Ongesorteerd", d.isSorted());
     }
 
     @Test
@@ -128,10 +128,10 @@ public class DeckTest {
         Deck d = new Deck();
         d.fill();
 
-        //assertEquals("0", 0, d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
+        assertEquals("0", 0, d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
 
         d.delete(0);
-        //assertEquals("1", -1, d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
+        assertEquals("1", -1, d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
     }
 
     @Test
@@ -149,34 +149,34 @@ public class DeckTest {
         deck2.insertAt(card1, 0);
         deck2.insertAt(card2, 1);
         deck2.insertAt(card3, 2);
-        //assertEquals("equals", 0, deck.compareTo(deck2));
+        assertEquals("equals", 0, deck.compareTo(deck2));
 
 
         //Unequal because of size
         deck2 = new Deck();
         deck2.insertAt(card1, 0);
         deck2.insertAt(card2, 1);
-        //assertTrue("Size is less than", deck2.compareTo(deck) < 0);
+        assertTrue("Size is less than", deck2.compareTo(deck) < 0);
 
         deck2 = new Deck();
         deck2.insertAt(card1, 0);
         deck2.insertAt(card2, 1);
         deck2.insertAt(card2, 2);
         deck2.insertAt(card2, 3);
-        //assertTrue("Size is greather than", deck2.compareTo(deck) > 0);
+        assertTrue("Size is greather than", deck2.compareTo(deck) > 0);
 
         //Unequals because of card order
         deck2 = new Deck();
         deck2.insertAt(card3, 0);
         deck2.insertAt(card1, 1);
         deck2.insertAt(card2, 2);
-        //assertTrue("Card order is less than", deck2.compareTo(deck) < 0);
+        assertTrue("Card order is less than", deck2.compareTo(deck) < 0);
 
         deck2 = new Deck();
         deck2.insertAt(card2, 0);
         deck2.insertAt(card1, 1);
         deck2.insertAt(card3, 2);
-        //assertTrue("Card order is greather than", deck2.compareTo(deck) > 0);
+        assertTrue("Card order is greather than", deck2.compareTo(deck) > 0);
     }
 
 }
