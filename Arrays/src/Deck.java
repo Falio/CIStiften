@@ -36,7 +36,7 @@ public class Deck {
     }
 
     public void insertAt(Card card, int index) {
-        cardArray = (Card[]) Arrays.copyOf(cardArray, cardArray.length + 1);
+        cardArray = Arrays.copyOf(cardArray, cardArray.length + 1);
 
         for (int i = cardArray.length - 1; i < index; --i) {
             cardArray[i] = cardArray[i - 1];
