@@ -2,7 +2,7 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
 //
-
+//werkt die trigger wel
 public class Card implements Comparable<Card> {
     Number number;
     Suit suit;
