@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\Card.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\CardTest.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\Deck.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\Deck.txt" afterPath="" />
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\DeckTest.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\Number.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\Repositories Git Hub\CIStiften\out\production\Arrays\Suit.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/test/java/CardTest.java" afterPath="$PROJECT_DIR$/Arrays/src/test/java/CardTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/Arrays.iml" afterPath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/pom.xml" afterPath="$PROJECT_DIR$/Arrays/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -73,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/Arrays/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.44810542" vertical-offset="0" max-vertical-offset="607">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -876,7 +869,7 @@
     <entry file="file://$PROJECT_DIR$/Arrays/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44810542" vertical-offset="0" max-vertical-offset="607">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
