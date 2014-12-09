@@ -19,7 +19,9 @@
     <envs />
     <patterns />
     <RunnerSettings RunnerId="Run" />
+    <RunnerSettings RunnerId="teamcity.remote.debug.runner" />
     <ConfigurationWrapper RunnerId="Run" />
+    <ConfigurationWrapper RunnerId="teamcity.remote.debug.runner" />
     <method />
   </configuration>
 </component>
