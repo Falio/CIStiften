@@ -1,17 +1,22 @@
-import static org.junit.Assert.*;
+//
+// Source code recreated from a .class file by IntelliJ IDEA
+// (powered by Fernflower decompiler)
+//
 
 import java.io.File;
 import java.util.Scanner;
-
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-
 public class DeckTest {
 	Deck deck;
+
+	public DeckTest() {
+	}
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -23,7 +28,7 @@ public class DeckTest {
 
 	@Before
 	public void setUp() throws Exception {
-		deck = new Deck();
+		this.deck = new Deck();
 	}
 
 	@After
@@ -32,17 +37,16 @@ public class DeckTest {
 
 	@Test
 	public void testFillDeck() {
-		deck.fill();
-
+		this.deck.fill();
 		String result = "leeg";
-		try{
-		 result = new Scanner(new File("Deck.txt")).useDelimiter("\\Z")
-				.next();
-		}catch(Exception e){
-			System.err.println("error: " + e);
+
+		try {
+			result = (new Scanner(new File("Deck.txt"))).useDelimiter("\\Z").next();
+		} catch (Exception var3) {
+			System.err.println("error: " + var3);
 		}
-		
-		assertEquals("result", result, this.deck.toString());
+
+		Assert.assertEquals("result", result, this.deck.toString());
 	}
 
 	@Test
@@ -51,17 +55,13 @@ public class DeckTest {
 		Card card1 = new Card(Number.AAS, Suit.RUITEN);
 		Card card2 = new Card(Number.TWEE, Suit.RUITEN);
 		Card card3 = new Card(Number.TWEE, Suit.KLAVEREN);
-		
 		deck.insertAt(card1, 0);
 		deck.insertAt(card2, 1);
 		deck.insertAt(card3, 2);
-		
-		
 		Deck result = new Deck();
-		Card[] temp = {card1, card2, card3};
-		result.cardArray = temp;
-		
-		assertEquals("InsertAt error:", result, deck);
+		Card[] temp = new Card[]{card1, card2, card3};
+		Deck.cardArray = temp;
+		Assert.assertEquals("InsertAt error:", result, deck);
 	}
 
 	@Test
@@ -70,18 +70,14 @@ public class DeckTest {
 		Card card1 = new Card(Number.AAS, Suit.RUITEN);
 		Card card2 = new Card(Number.TWEE, Suit.RUITEN);
 		Card card3 = new Card(Number.TWEE, Suit.KLAVEREN);
-		
-		Card[] temp = {card1, card2, card3};
-		deck.cardArray = temp;		
+		Card[] temp = new Card[]{card1, card2, card3};
+		Deck.cardArray = temp;
 		deck.delete(0);
-		
 		Deck deck2 = new Deck();
-		Card[] temp2 = {card2, card3};
-		deck2.cardArray = temp2;
-		
-		assertEquals("result\n", deck, deck2);
+		Card[] temp2 = new Card[]{card2, card3};
+		Deck.cardArray = temp2;
+		Assert.assertEquals("result\n", deck, deck2);
 	}
-
 
 	@Test
 	public void testSequentialSearch() {
@@ -89,13 +85,10 @@ public class DeckTest {
 		Card card1 = new Card(Number.AAS, Suit.RUITEN);
 		Card card2 = new Card(Number.TWEE, Suit.RUITEN);
 		Card card3 = new Card(Number.TWEE, Suit.KLAVEREN);
-		
 		deck.insertAt(card1, 0);
 		deck.insertAt(card2, 1);
 		deck.insertAt(card3, 2);
-		
-		
-		assertEquals("result", deck.sequentialSearch(card1), 0);
+		Assert.assertEquals("result", (long)deck.sequentialSearch(card1), 0L);
 	}
 
 	@Test
@@ -103,39 +96,28 @@ public class DeckTest {
 		Deck deck = new Deck();
 		deck.fill();
 		deck.shuffle();
-		
-		
 		Deck deck2 = new Deck();
 		deck2.fill();
-
-		
 		deck.sort();
-		assertEquals("result", deck, deck2);
+		Assert.assertEquals("result", deck, deck2);
 	}
 
 	@Test
 	public void testIsSorted() {
-		Deck d= new Deck();
+		Deck d = new Deck();
 		d.fill();
-		
-		assertTrue("Gesorteerd", d.isSorted());
-		
-		//Pas op! het volgende is een op de 
-		//80658175170943878571660636856403766975289505440883277824000000000000 
-		//keer niet geldig
+		Assert.assertTrue("Gesorteerd", d.isSorted());
 		d.shuffle();
-		assertFalse("Ongesorteerd",d.isSorted());
+		Assert.assertFalse("Ongesorteerd", d.isSorted());
 	}
 
 	@Test
 	public void testBinarySearchCard() {
 		Deck d = new Deck();
 		d.fill();
-		
-		assertEquals("0", 0, d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
-		
+		Assert.assertEquals("0", 0L, (long)d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
 		d.delete(0);
-		assertEquals("1", -1, d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
+		Assert.assertEquals("1", -1L, (long)d.binarySearch(new Card(Number.TWEE, Suit.KLAVEREN)));
 	}
 
 	@Test
@@ -145,42 +127,32 @@ public class DeckTest {
 		Card card1 = new Card(Number.TWEE, Suit.RUITEN);
 		Card card2 = new Card(Number.AAS, Suit.RUITEN);
 		Card card3 = new Card(Number.TWEE, Suit.KLAVEREN);
-		
 		deck.insertAt(card1, 0);
 		deck.insertAt(card2, 1);
 		deck.insertAt(card3, 2);
-		
 		deck2.insertAt(card1, 0);
 		deck2.insertAt(card2, 1);
 		deck2.insertAt(card3, 2);
-		assertEquals("equals", 0, 	deck.compareTo( deck2 ) 	);
-		
-		
-		//Unequal because of size
+		Assert.assertEquals("equals", 0L, (long)deck.compareTo(deck2));
 		deck2 = new Deck();
 		deck2.insertAt(card1, 0);
 		deck2.insertAt(card2, 1);
-		assertTrue("Size is less than", 	deck2.compareTo( deck ) < 0	);
-
+		Assert.assertTrue("Size is less than", deck2.compareTo(deck) < 0);
 		deck2 = new Deck();
 		deck2.insertAt(card1, 0);
 		deck2.insertAt(card2, 1);
 		deck2.insertAt(card2, 2);
 		deck2.insertAt(card2, 3);
-		assertTrue("Size is greather than", deck2.compareTo( deck ) > 0 );
-		
-		//Unequals because of card order
+		Assert.assertTrue("Size is greather than", deck2.compareTo(deck) > 0);
 		deck2 = new Deck();
 		deck2.insertAt(card3, 0);
 		deck2.insertAt(card1, 1);
 		deck2.insertAt(card2, 2);
-		assertTrue("Card order is less than", 	deck2.compareTo( deck ) < 0	);
-		
+		Assert.assertTrue("Card order is less than", deck2.compareTo(deck) < 0);
 		deck2 = new Deck();
 		deck2.insertAt(card2, 0);
 		deck2.insertAt(card1, 1);
 		deck2.insertAt(card3, 2);
-		assertTrue("Card order is greather than", 	deck2.compareTo( deck ) > 0	);
+		Assert.assertTrue("Card order is greather than", deck2.compareTo(deck) > 0);
 	}
-	
 }
