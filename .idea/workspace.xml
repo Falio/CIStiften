@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/Arrays.iml" afterPath="$PROJECT_DIR$/Arrays/Arrays.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/test/java/CardTest.java" afterPath="$PROJECT_DIR$/Arrays/src/test/java/CardTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/test/java/DeckTest.java" afterPath="$PROJECT_DIR$/Arrays/src/test/java/DeckTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/pom.xml" afterPath="$PROJECT_DIR$/Arrays/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,8 +56,10 @@
         <entry file="file://$PROJECT_DIR$/Arrays/src/test/java/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/Arrays/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-              <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -95,10 +100,10 @@
       <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Arrays/src/test/java/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8705114" vertical-offset="2294" max-vertical-offset="3213">
-              <caret line="182" column="3" selection-start-line="182" selection-start-column="3" selection-end-line="182" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.16648531" vertical-offset="0" max-vertical-offset="3213">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#0#4668#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -538,6 +543,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Arrays/lib/junit-4.12.jar" />
       <envs />
       <method />
     </configuration>
@@ -685,7 +691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="408">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -721,7 +729,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="3213">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding>
-            <element signature="e#0#4668#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,7 +928,7 @@
     <entry file="file://$PROJECT_DIR$/Arrays/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -928,17 +936,19 @@
     <entry file="file://$PROJECT_DIR$/Arrays/src/test/java/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/test/java/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8705114" vertical-offset="2294" max-vertical-offset="3213">
-          <caret line="182" column="3" selection-start-line="182" selection-start-column="3" selection-end-line="182" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.16648531" vertical-offset="0" max-vertical-offset="3213">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#0#4668#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

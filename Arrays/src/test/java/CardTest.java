@@ -1,6 +1,6 @@
 
 
-/*import org.junit.Test;
+import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
@@ -15,4 +15,4 @@ public class CardTest {
         assertTrue(c1.compareTo(c2) > 0);
         assertTrue(c2.compareTo(c1) < 0);
     }
-}*/
+}
