@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/Card.java" afterPath="$PROJECT_DIR$/Arrays/src/Card.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/CardTest.java" afterPath="$PROJECT_DIR$/Arrays/src/CardTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/DeckTest.java" afterPath="$PROJECT_DIR$/Arrays/src/DeckTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Stiften.iml" afterPath="$PROJECT_DIR$/Stiften.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,22 +30,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Arrays/src/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Arrays/src/CardTest.java">
+      <file leaf-file-name="ant_ant_junit_1_6.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/ant_ant_junit_1_6.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Arrays/src/CardTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,16 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".classpath" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.classpath">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".project" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.project">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,7 +122,7 @@
       <file leaf-file-name="Stiften.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stiften.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -127,7 +132,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14127">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14365">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -242,14 +247,14 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Downloads/junit-4.12.jar!/" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -718,7 +723,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/CardTest.java">
+    <entry file="file://$PROJECT_DIR$/Arrays/src/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/ant_ant_junit_1_6.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -726,11 +739,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Arrays/src/Card.java">
+    <entry file="file://$PROJECT_DIR$/Arrays/src/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -791,7 +806,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
