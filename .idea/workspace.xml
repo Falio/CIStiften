@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/Card.java" afterPath="$PROJECT_DIR$/Arrays/src/Card.java" />
-    </list>
+    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="" />
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
