@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/CardTest.java" afterPath="$PROJECT_DIR$/Arrays/src/CardTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/DeckTest.java" afterPath="$PROJECT_DIR$/Arrays/src/DeckTest.java" />
+      <change type="MOVED" beforePath="E:\Repositories Git Hub\CIStiften\lib\ant-junit-1.6.jar" afterPath="$PROJECT_DIR$/Arrays/lib/ant-junit-1.6.jar" />
+      <change type="MOVED" beforePath="E:\Repositories Git Hub\CIStiften\lib\junit-4.12.jar" afterPath="$PROJECT_DIR$/Arrays/lib/junit-4.12.jar" />
     </list>
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,8 +61,8 @@
       <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Arrays/src/DeckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8150163" vertical-offset="2277" max-vertical-offset="3196">
-              <caret line="178" column="10" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.27856365" vertical-offset="2277" max-vertical-offset="3196">
+              <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,6 +266,7 @@
       <recent name="E:\Repositories Git Hub\CIStiften\Arrays\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Repositories Git Hub\CIStiften\Arrays" />
       <recent name="E:\Repositories Git Hub\CIStiften\lib" />
     </key>
   </component>
@@ -747,8 +748,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Arrays/src/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8150163" vertical-offset="2277" max-vertical-offset="3196">
-          <caret line="178" column="10" selection-start-line="178" selection-start-column="10" selection-end-line="178" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.27856365" vertical-offset="2277" max-vertical-offset="3196">
+          <caret line="149" column="33" selection-start-line="149" selection-start-column="33" selection-end-line="149" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
