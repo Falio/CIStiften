@@ -1,4 +1,3 @@
-
 import org.junit.*;
 
 import java.io.File;
@@ -6,8 +5,8 @@ import java.util.Scanner;
 
 import static org.junit.Assert.*;
 
+public class DeckTest1 {
 
-public class DeckTest {
     Deck deck;
 
     @BeforeClass
@@ -179,5 +178,6 @@ public class DeckTest {
         deck2.insertAt(card3, 2);
         assertTrue("Card order is greather than", deck2.compareTo(deck) > 0);
     }
+
 
 }

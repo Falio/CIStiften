@@ -1,10 +1,8 @@
-
-
 import org.junit.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
-public class CardTest {
+public class CardTest1 {
 
     @Test
     public void testCompareTo() {
@@ -15,4 +13,5 @@ public class CardTest {
         assertTrue(c1.compareTo(c2) > 0);
         assertTrue(c2.compareTo(c1) < 0);
     }
+
 }
