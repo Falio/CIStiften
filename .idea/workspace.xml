@@ -25,13 +25,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/target/classes/Card.class" afterPath="$PROJECT_DIR$/Arrays/target/classes/Card.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/target/test-classes/CardTest1.class" afterPath="$PROJECT_DIR$/Arrays/target/test-classes/CardTest1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/target/classes/Deck.class" afterPath="$PROJECT_DIR$/Arrays/target/classes/Deck.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/target/classes/Number.class" afterPath="$PROJECT_DIR$/Arrays/target/classes/Number.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/target/classes/Suit.class" afterPath="$PROJECT_DIR$/Arrays/target/classes/Suit.class" />
-    </list>
+    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="" />
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -610,7 +604,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
