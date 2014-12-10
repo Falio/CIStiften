@@ -25,7 +25,9 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="" />
+    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/CardTest1.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/CardTest1.xml" />
+    </list>
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -379,7 +381,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest1.testCompareTo">
+  <component name="RunManager" selected="JUnit.CardTest1">
     <configuration default="false" name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Deck" />
@@ -599,7 +601,7 @@
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Deck" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest1.testCompareTo" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest1" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest1.testCompareTo" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.All in Arrays" />
     </list>
