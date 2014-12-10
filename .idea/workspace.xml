@@ -25,9 +25,7 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Arrays/src/test/java/CardTest1.java" afterPath="$PROJECT_DIR$/Arrays/src/test/java/CardTest1.java" />
-    </list>
+    <list default="true" id="ec015024-6015-4ae7-be62-34d1ee25a363" name="Default" comment="" />
     <ignored path="Stiften.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -381,7 +379,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Arrays">
+  <component name="RunManager" selected="JUnit.CardTest1.testCompareTo">
     <configuration default="false" name="Deck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Deck" />
@@ -426,14 +424,14 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Arrays" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -599,14 +597,11 @@
       <listeners />
       <method />
     </configuration>
-    <list size="7">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CardTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DeckTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CardTest1" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Deck" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.DeckTest1.testCompareTo" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.All in Arrays" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Deck" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CardTest1.testCompareTo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DeckTest1.testCompareTo" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in Arrays" />
     </list>
     <recent_temporary>
       <list size="3">
