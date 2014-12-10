@@ -8,7 +8,7 @@
     <option name="MAIN_CLASS_NAME" value="CardTest1" />
     <option name="METHOD_NAME" value="testCompareTo" />
     <option name="TEST_OBJECT" value="class" />
-    <option name="VM_PARAMETERS" value="-ea" />
+    <option name="VM_PARAMETERS" value="" />
     <option name="PARAMETERS" value="" />
     <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     <option name="ENV_VARIABLES" />
@@ -22,8 +22,6 @@
     <RunnerSettings RunnerId="teamcity.remote.debug.runner" />
     <ConfigurationWrapper RunnerId="Run" />
     <ConfigurationWrapper RunnerId="teamcity.remote.debug.runner" />
-    <method>
-      <option name="Make" enabled="false" />
-    </method>
+    <method />
   </configuration>
 </component>
