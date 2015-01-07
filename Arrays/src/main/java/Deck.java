@@ -17,17 +17,12 @@ public class Deck {
 
     public static void main(String[] args) {
         int i;
-
         Scanner in = new Scanner(System.in);
-
-        System.out.println("Enter a number to see which card is at that position");
-        i = in.nextInt();
-
-        Card card1 = new Card(Number.ZEVEN, Suit.RUITEN);
         Deck d = new Deck();
         d.fill();
+        System.out.println("Enter a number to see which card is at that position");
+        i = in.nextInt();
         System.out.println(cardArray[i]);
-
     }
 
     public void fill() {
