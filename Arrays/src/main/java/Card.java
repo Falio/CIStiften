@@ -3,6 +3,7 @@
 // (powered by Fernflower decompiler)
 //
 //werkt die trigger wel
+
 public class Card implements Comparable<Card> {
     Number number;
     Suit suit;
