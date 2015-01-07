@@ -5,6 +5,7 @@
 
 import java.util.Arrays;
 import java.util.Random;
+import java.util.Scanner;
 
 //test
 public class Deck {
@@ -15,11 +16,18 @@ public class Deck {
     }
 
     public static void main(String[] args) {
+        int i;
+
+        Scanner in = new Scanner(System.in);
+
+        System.out.println("Enter a number to see which card is at that position");
+        i = in.nextInt();
+
         Card card1 = new Card(Number.ZEVEN, Suit.RUITEN);
         Deck d = new Deck();
         d.fill();
-        d.insertAt(card1, 51);
-        System.out.println(cardArray[51]);
+        System.out.println(cardArray[i]);
+
     }
 
     public void fill() {
